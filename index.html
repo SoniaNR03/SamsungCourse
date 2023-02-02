@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="header-form">
+            <h1>Create Account</h1>
+        </div>
+        <form class="flex-form" id="form">
+            <div class="inputControl">
+                <label for="nombre">Nombre</label><br>
+                <input name="nombre" type="text" id="nombre">
+                <i class="fa fa-check-circle"></i> <!-- he utilizado iconos de una fuente -->
+                <i class="fa fa-exclamation-circle"></i>
+                <small class="error"></small>
+            </div>
+
+            <div class="inputControl">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small class="error"></small>
+            </div>
+
+            <div class="inputControl">
+                <label for="clave">Clave</label><br>
+                <input type="password" id="clave" name="clave">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small class="error"></small>
+            </div>
+
+            <div class="inputControl">
+                <label for="clave2">Confirma clave</label><br>
+                <input type="password" id="clave2" name="clave2">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small class="error"></small>
+            </div>
+
+            <button type="submit">ENVIAR</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
